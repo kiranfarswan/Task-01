@@ -1,0 +1,272 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@300;400;600;700&family=Pathway+Extreme:wght@100&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    height: 796px;
+    margin: 0;
+}
+
+.container {
+    height: 796px;
+    margin: 0 auto;
+    width: 960px;
+
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.image {
+    height: 402px;
+    width: 402px;
+    object-fit: cover;
+    display: block;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: 100% 51%;
+    background-repeat: no-repeat;
+    object-position: 50% 91.68%;
+    background-image: url('./image.jpg');
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    z-index: -1;
+    margin: 60px 269px 0;
+   
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 0;
+    width: 360px;
+    height: 91px;
+    margin: -76px 290px 0 ;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icon1 {
+    border: 2px solid none;
+    background-color: #ffa902;
+    border-radius: 50px;
+    width: 89.7px;
+    text-align: center;
+}
+
+#box1 {
+    height: 74.7px;
+    padding-top: 15px;
+
+}
+
+#box2 {
+    height: 76.1px;
+    padding-top: 13.6px;
+
+}
+
+#box3 {
+    height: 68.2px;
+    padding-top: 21.5px;
+}
+
+.fa-facebook-f {
+    font-size: 66px;
+}
+
+.fa-instagram{
+    font-size: 64px;
+}
+
+.fa-youtube {
+    font-size: 49px;
+}
+
+
+h2 {
+    width: 864px;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+    margin: 30px 10px 0;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    color: #111;
+}
+
+.section1 p {
+    width: 640px;
+    text-align: center;
+    margin: 41px 145.5px  0;
+    line-height: 25.8px;
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    font-size: 1em;
+}
+
+
+.btn1 {
+    letter-spacing: 1.1px;
+    text-align: center;
+    border: 1px solid none;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f3a909;
+    text-decoration: none;
+    cursor: pointer;
+    height: 62px;
+    width: 226.18px;
+    padding: 1.3em 1.2em;
+    font-weight: 700;
+    margin: 31px 356.917px 60px 356.906px;
+    box-sizing: border-box;
+  
+}
+
+.btn1:hover{
+    background-color: #f9d381;
+    color: #111111;
+}
+
+
+
+/*                        footer                       */
+
+
+
+
+.footer {
+    position: absolute;
+    background-color: #323233;
+    width: 97.5%;
+    height: 71.59px;
+    padding: 16px;
+}
+
+.section2 {
+    margin: 23.5px 0 20px 237.8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    column-gap: 4px;
+    width: 60%;
+}
+
+
+.footer .text1 {
+    color: #fff;
+    margin: 0;
+    font-size: 12.8px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer .link1 {
+    text-decoration: underline;
+    font-size: 12.8px;
+    font-family: 'Open Sans', sans-serif;
+    color: #e7ebff;
+}
+
+.footer .link2 {
+    text-decoration: underline;
+    font-size: 12.8px;
+    font-family: 'Open Sans', sans-serif;
+    color: #e7ebff;
+}
+
+.footer .link1:hover {
+    text-decoration: none;
+    color: rgb(112, 110, 110);
+}
+
+.footer .link2:hover {
+    text-decoration: none;
+    color: rgb(112, 110, 110);
+}
+
+
+
+
+/*                                            media query                                                    */
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .section1 .text1 {
+        width: 550px;
+    }
+}
+
+@media (max-width: 575px){
+    .section1 {
+        height: 953px;
+    }
+    .section1 .head{
+        width: 340px;
+    }
+    .section1 .text1 {
+        width: 340px;
+    }
+
+    .footer{
+        width: 150%;
+    }
+}
+
+@media (max-width: 414px){
+    .footer{
+       width: 200%;
+    }
+}
+
+
+@media (max-width: 370px){
+    .section2 {
+        margin-top: 3%;
+        width: 30%;
+    }
+}
+
+@media (max-width: 270px){
+    .section2 {
+        width: 20%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
